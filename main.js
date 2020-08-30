@@ -23,8 +23,9 @@ button.addEventListener("click",function(){
     city.innerText=input.value;
 
 
-    tem.innerText=dat['main']['temp'];
-    lead.innerText=dat['weather'][0]['main']
+    tem.innerText=dat.main.temp;
+    lead.innerText=dat.weather[0].main;
+    
     
     })
 
